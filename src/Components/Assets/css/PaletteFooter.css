@@ -1,0 +1,12 @@
+.Footer{
+    height: 4%;
+    font-size: 1rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+a:visited {
+    color:red
+}

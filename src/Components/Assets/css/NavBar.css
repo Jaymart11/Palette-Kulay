@@ -1,0 +1,81 @@
+.NavBar{
+    height: 6%;
+    display:flex;
+    justify-content: space-between;
+}
+.Kulay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.Kulay .home{
+    cursor: pointer;
+    text-decoration:none;
+}
+.Kulay .home:visited{
+    color:black;
+}
+
+.left-side{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.select-container{
+    margin: 0 auto;
+    width: 15vw;
+}
+
+.slider label{
+    text-align: center;
+}
+
+input[type=range] {
+    appearance: none;
+    background: #d3d3d3;
+    height: 10px;
+    outline:none;
+    border-radius: 10px;
+    opacity: 0.7;
+    transition: opacity .2s;
+    margin-left: 1rem;
+    cursor: grab;
+    width: 20vw;
+}
+input[type=range]:active{
+    cursor: grabbing;
+}
+
+input[type=range]:hover{
+    opacity: 1;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #3c4bb9;
+    border-radius: 100%;
+}
+.home{
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 500px){
+    .home {
+        display:none;
+    }
+}
